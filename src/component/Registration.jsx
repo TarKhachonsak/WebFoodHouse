@@ -1,7 +1,13 @@
+import logo from '../assets/foodhouse.png'
+
+
 const Registration = () => {
     return (
         <div className="flex justify-center items-center min-h-screen bg-[#50D6FF]">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden md:flex w-full md:max-w-4xl">
+                <div>
+                    <img src={logo}/>
+                </div>
                 <div className="bg-[#FFF346] py-56 flex flex-col justify-center items-center w-full md:w-1/2 p-6 h-full">
                     <h2 className="text-2xl font-bold">Welcome!</h2>
                     <p className="text-center mb-4">Log in to enjoy the new Food house and menu recipes.</p>
