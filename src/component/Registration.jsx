@@ -3,9 +3,9 @@ import { FaStar } from "react-icons/fa";
 
 const Registration = () => {
     return (
-        <div className="relative flex justify-center items-center min-w-full min-h-screen bg-[#67AABE]">
-            <div className='w-[1000px] h-[1000px] bg-[#5985BA] rounded-[100%] absolute z-0 -translate-y-96 translate-x-3/4 overflow-hidden'></div>
-            <div className='w-[600px] h-[600px] bg-[#4663A2] rounded-[100%] z-0 absolute -translate-x-full translate-y-2/3 overflow-hidden'></div>
+        <div className="relative flex justify-center items-center min-h-screen bg-[#67AABE] overflow-hidden">
+            <div className='w-[800px] h-[800px] bg-[#5985BA] rounded-full absolute z-0 -translate-y-96 translate-x-3/4 overflow-hidden'></div>
+            <div className='w-[600px] h-[600px] bg-[#4663A2] rounded-full z-0 absolute -translate-x-full translate-y-2/3 overflow-hidden'></div>
             <div className="bg-white rounded-3xl shadow-lg overflow-hidden md:flex w-full md:max-w-4xl z-20">
                 <div className="bg-[#FFF346] flex flex-col justify-between items-center w-full md:w-1/2 h-full p-6">
                     <div className='w-1/2 m-20 relative bottom-24 flex justify-center'>
