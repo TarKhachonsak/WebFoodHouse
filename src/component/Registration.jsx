@@ -3,17 +3,19 @@ import { FaStar } from "react-icons/fa";
 
 const Registration = () => {
     return (
-        <div className="flex justify-center items-center min-h-screen bg-[#50D6FF]">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden md:flex w-full md:max-w-4xl">
+        <div className="relative flex justify-center items-center min-w-full min-h-screen bg-[#67AABE]">
+            <div className='w-[1000px] h-[1000px] bg-[#5985BA] rounded-[100%] absolute z-0 -translate-y-96 translate-x-3/4 overflow-hidden'></div>
+            <div className='w-[600px] h-[600px] bg-[#4663A2] rounded-[100%] z-0 absolute -translate-x-full translate-y-2/3 overflow-hidden'></div>
+            <div className="bg-white rounded-3xl shadow-lg overflow-hidden md:flex w-full md:max-w-4xl z-20">
                 <div className="bg-[#FFF346] flex flex-col justify-between items-center w-full md:w-1/2 h-full p-6">
                     <div className='w-1/2 m-20 relative bottom-24 flex justify-center'>
                         <img src={logo} alt='Food House Logo' />
                     </div>
                     <div className='relative bottom-44 flex flex-col justify-center items-center flex-grow text-center'>
                         <div>
-                            <FaStar className='text-[#FBB9B9] w-96 h-5 relative left-36 bottom-3' />
+                            <FaStar className='text-[#FBB9B9] w-96 h-5 relative left-40 bottom-3' />
                         </div>
-                        <h2 className="text-6xl font-bold text-shadow text-black">Welcome !</h2>
+                        <h2 className="text-6xl font-bold text-shadow">Welcome !</h2>
                         <p className="text-center mb-4 text-sm">Log in to enjoy the new Food house and menu recipes.</p>
                     </div>
                 </div>

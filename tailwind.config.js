@@ -11,7 +11,7 @@ export default {
       },
       fontFamily: {
         body: ['Scope One']
-      }
+      },
     },
   },
   plugins: [
@@ -19,14 +19,8 @@ export default {
       const newUtilities = {
         '.text-shadow' : {
           textShadow: `
-            3px 3px 0 #fff,
-            -3px 3px 0 #fff,
-            3px -3px 0 #fff,
-            -3px -3px 0 #fff,
-            3px 0 0 #fff,
-            -3px 0 0 #fff,
-            0 3px 0 #fff,
-            0 -3px 0 #fff
+            3px 3px 0 #fff
+    
           `
         },
       }
